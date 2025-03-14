@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            task 1
+        </title>
+    </head>
+    <body>
+
+        <table border="1"  bordercolor="green"align="center"  width="50%" height ="20" cellspacing="10"  >
+            <tr>
+                <td width="50">Send Message </td>
+                <td><a href="sms:002010557788"> Send SMS</a></td>
+            </tr>
+            <tr>
+                <td>Make call </td>
+                <td><a href="tel:002010557788"> Make Call</a></td>
+            </tr>
+            <tr>
+                <td>open watesapp </td>
+                <td><a href="http://wa.me/002010557788"> Send Watesapp Message</a></td>
+            </tr>
+            <tr>
+                <td>Download a file  </td>
+                <td><a href="path/to/your-file.pdf" download > Download CAT File </a></td>
+            </tr>
+        </table>
+    </body>
+</html>

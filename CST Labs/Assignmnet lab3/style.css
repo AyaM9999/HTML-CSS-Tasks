@@ -1,0 +1,275 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+}
+#nav_list{
+
+    list-style: none;
+    font-weight: 100;
+    font-size: large;
+    padding-bottom: 100px;
+ 
+} 
+
+#nav_list li{
+    padding-left: 40px;
+    display: inline;
+    text-decoration: none;
+    
+}
+
+#nav_list li:first-child{
+    padding-right: 400px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.div_header {
+    margin: 40PX;
+    PADDING: 15PX;
+    DISPLAY: flex ;
+}
+div.buttons{
+    margin-top: 30px;
+}
+a.btn-orange,a.btn-black {
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+a.btn-orange{
+    background-color: orangered;
+   
+
+}
+a.btn-black{
+    background-color: black;
+
+}
+
+img#dish {
+    /* width: fit-content; */
+    /* width: min-content; */
+    height: 250px;
+    width: 350px;
+}
+
+header#header_home {
+    background-color:gainsboro;
+    height:450px
+}
+/* the first section*/
+section#section1_home,
+section#section2_home {
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+
+div#fruits_services
+ {
+    display: inline-flex;
+    padding:30px 70px;
+
+
+}
+
+div#orange_services,
+div#graps_services,
+div#gauva_services
+ {
+    margin-right: 25px;
+    width: 35%px;
+    border: 1px solid rgb(128, 128, 128);
+}
+div#orange_services:hover,
+div#graps_services:hover,
+div#gauva_services:hover{
+    border-top: 4px solid orangered;
+    
+}
+
+div#readmore{
+    padding-top: 30px;
+
+}
+#readmore_btn {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-size: large;
+}
+
+#readmore_btn:hover{
+    color:black;
+    background-color: white;
+}
+#fresh_fruits h4 {
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+div#best_freshfruits {
+    text-align: left;
+}
+#bestfresh_orange,
+#bestfresh_graps,
+#bestfresh_guave
+
+{
+    display: inline-flex;
+    padding:20px 30px;
+}
+
+#bestfresh_orange img,
+#bestfresh_graps img,
+#bestfresh_guave img
+{
+    width:20%;
+    height:100px;
+    padding-top: 20px;
+}
+
+#bestfresh_orange button#buy,
+#bestfresh_graps button#buy,
+#bestfresh_guave button#buy{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    padding:10px 22px;
+
+}
+#bestfresh_orange button#buy:hover,
+#bestfresh_graps button#buy:hover,
+#bestfresh_guave button#buy :hover{
+
+    background-color: white;
+    color: black;
+}
+
+section#section3_home {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-image: url(images/tasty.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:500px;
+}
+#section4_home h3{
+    font-weight: bolder;
+    font-size: x-large;
+}
+section#section3_home{
+    color:white;
+    text-align: center;
+    font-size: 110px;
+    font-weight: bold;
+    line-height: 500px;
+    margin-top: 50px;
+}
+
+#section4_home{
+    text-align: center;
+    text-decoration: none;
+    margin: 100px 110px;
+    display: block;
+}
+#section5{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 0px;
+    display: inline-flex;
+}
+#contact_data {
+    width:1000px;
+    margin-left: 70px; 
+    
+    
+}
+#img_lemondish{
+
+    display: inline-block;
+    margin-left: 100px; 
+    vertical-align:middle;
+    
+    
+}
+input{
+   margin-left: 30px;
+   border: none;
+   border-bottom:2px solid gainsboro;
+   text-align: left;
+   width: 65%;
+}
+#send-btn{
+    border:none;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    width: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+div#summary {
+    display: flex;
+    margin: 200px;
+    justify-content: space-between;
+    height: 400px;
+    width: 50%;
+    text-align: left;
+
+}
+
+div#summary div#fruits,
+div#summary div#services,
+div#summary div#list,
+div#summary div#social_media{
+    width:18%;
+   
+    text-decoration: none;
+
+
+
+}
+
+div#social_media_links{
+    display: inline;
+}
+#sub_box{
+    border: 3px solid gainsboro;
+    margin:  6px 0px;
+    padding:10px 35px;
+    
+}
+#sub_btn {
+    margin:  6px 0px;
+    padding:10px ;
+    background-color: orangered;
+    color: white;
+    size: 90px;
+    width: 90%;
+    
+}

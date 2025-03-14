@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>
+            task 5
+        </title>
+    </head>
+    <body>
+       
+
+        <form method="get">
+            <h1>  Registeration </h1>
+          <table  >
+            <tr  >
+                <td> User Name</td>
+                <td> Full Name</td>
+            </tr>  
+            
+            <tr>
+                <td><input input=" text" placeholder="Enter username" value="username"/></td>
+                <td><input input=" text" placeholder="Enter fullname" value="fullname"/></td>
+            </tr>
+
+            <tr>
+                <td> Email</td>
+                <td> phone Number</td>
+            </tr> 
+
+            <tr>
+                <td><input input=" Email" placeholder="Enter Email" value="Email"/></td>
+                <td><input input=" phonenumber" placeholder="Enter Phone Number" value="phonenumber"/></td>
+            </tr> 
+            <tr>
+                <td> Password</td>
+                <td> confirm password</td>
+            </tr>  
+
+            <tr>
+                <td><input input=" password" placeholder="Enter password" value="password"/></td>
+                <td><input input=" password" placeholder="confirm password" value="comfirmpassword"/></td>
+            </tr>         
+            <tr>
+                <td>gender</td>
+
+            </tr>
+
+            <tr>
+             
+                <td>
+                    <table>
+                    <tr>
+                      <td><input type="radio" value="Female"/> Female</td>
+                      <td><input type="radio" value="Male"/> Male</td>
+                    </tr>
+                  </table></td>
+                <td>
+                  <input type="radio" value="prefer Not to say"/> prefer Not to say
+                </td>
+ 
+            </tr> 
+
+            <tr  > 
+                <th  colspan="2">
+                 <input  type="submit" value="Register">
+               </th>
+            </tr>
+
+          </table>
+        </form>
+
+    </body>
+</html>

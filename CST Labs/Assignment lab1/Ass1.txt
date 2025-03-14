@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Lab1 Assignment1</title>
+</head>
+<body>
+<img src="C:\Users\FOUDA\Downloads\CST\Day 01\Lab 1\lab1Ass.jpg" attribute=" Assignment mark" hspace="20" vspace="60" height="150" width="250"  align="center" > 
+<span>  <font size="10"> Assignment 5</font></span>
+<br>
+<img src="C:\Users\FOUDA\Downloads\CST\Day 01\Lab 1\lab1Ass.jpg" attribute=" Assignment mark" align="center">
+<span> <font color="blue"> Homework8.png &nbsp;</font> (45.086 Kb)
+</span>
+
+<h2> Step 1<h2>
+<ul> 
+ <li>Make a page called Assignment5.html with the standard code template and upload to the Week-4 directory.</li>
+ <li>Write the html that will recreate the page shown in the attached pdf file.</li>
+</ul>
+<h2> Step 1<h2>
+<ul> 
+ <li>Edit your index.html in the root directory of your web account and add a relative link to your homework file. </li>
+ 
+</ul>
+
+</body>
+</html>
